@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className="w-full px-6 py-4 border-b">
       <div className="flex justify-between items-center">
-        <img src={images.logo} alt="" className="h-8 w-8" />
+        <img src={images.logo} alt="" className="h-8 w-8 sm:hidden block" />
         <div className="sm:flex gap-6 border items-center p-2 rounded-full hidden">
           <IoIosSearch className="text-foreground w-10 h-5" />
           <input
