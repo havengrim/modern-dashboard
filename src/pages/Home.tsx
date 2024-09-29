@@ -5,9 +5,11 @@ const Home = () => {
   return (
     <div className="flex h-screen">
       <Sidebar />
-      <div className="flex flex-col flex-grow ml-20"> {/* Adjusting for Sidebar width */}
+      <div className="flex flex-col flex-grow sm:ml-20 m-0"> {/* Adjusting for Sidebar width */}
         <Navbar />
+      <div>sdsd</div>
       </div>
+
     </div>
   );
 };

@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
   	extend: {
+      fontFamily: {
+        inter: ['Inter', 'sans-serif'], // Add Inter font family
+      },
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
