@@ -31,7 +31,7 @@ const options = {
 
 const PieChartProfile = () => {
   return (
-    <div className="w-full h-[300px] sm:h-[400px] md:h-[450px] lg:h-[500px] min-h-[300px] max-w-full lg:max-w-[600px] mx-auto">
+    <div className="w-full h-[400px] sm:h-[400px] md:h-[450px] lg:h-[380px] min-h-[300px] max-w-full lg:max-w-[600px] mx-auto">
       <Pie data={data} options={options} />
     </div>
   );

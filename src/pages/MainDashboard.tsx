@@ -5,6 +5,9 @@ import BarChart from '@/components/BarChart';
 import { SiMoneygram } from "react-icons/si";
 import { FaFile } from "react-icons/fa6";
 import BarChartGrowth from '@/components/BarChartGrowth';
+import PieChartProfile from '@/components/PieChartProfile';
+import { CardContent } from '@mui/material';
+import LineChart from '@/components/LineChart';
 
 const MainDashboard = () => {
   return (
@@ -61,6 +64,27 @@ const MainDashboard = () => {
               <BarChartGrowth />
             </div>
           </div>
+
+          <div className='grid grid-cols-12 py-6 gap-5'>
+              <div className='col-span-12 md:col-span-4'>
+                <Card>
+                  <CardContent>
+                    <div className="h-96"> {/* Set a specific height for the Pie Chart */}
+                      <PieChartProfile />
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
+              <div className='col-span-12 md:col-span-8'>
+                <Card>
+                  <CardContent>
+                    <div className="h-96"> {/* Set the same height for the Line Chart */}
+                      <LineChart />
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
+            </div>
         </Grid>
 
       </Grid>
