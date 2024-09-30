@@ -50,7 +50,7 @@ const MainDashboard = () => {
             </div>
             <div>
               <div className="flex flex-col items-center h-full">
-                <div className="w-full max-w-2xl bg-card border h-full rounded-lg shadow p-4">
+                <div className="w-full  bg-card border h-full rounded-lg shadow p-4">
                   <BarChart />
                 </div>
               </div>
@@ -63,9 +63,6 @@ const MainDashboard = () => {
           </div>
         </Grid>
 
-        <Grid size={{ xs: 12, md: 3 }} className="bg-gray-50 h-screen">
-          
-        </Grid>
       </Grid>
     </section>
   );
