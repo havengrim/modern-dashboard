@@ -4,13 +4,15 @@ import { IoBagHandle } from "react-icons/io5";
 import BarChart from '@/components/BarChart';
 import { SiMoneygram } from "react-icons/si";
 import { FaFile } from "react-icons/fa6";
+import BarChartGrowth from '@/components/BarChartGrowth';
 
 const MainDashboard = () => {
   return (
-    <section className="p-6">
-      <h1 className="text-xl font-bold text-gray-800 dark:text-foreground">Dashboard</h1>
+    <section>
+
       <Grid container spacing={2}>
-        <Grid size={{ xs: 12, md: 9 }}>
+        <Grid size={{ xs: 12, md: 9 }} className="p-6">
+          <div><h1 className="text-xl font-bold text-gray-800 dark:text-foreground">Dashboard</h1></div>
           <div className='grid grid-cols-1 sm:grid-cols-3 py-5 gap-5'>
             <div className='flex flex-col gap-4'>
               <Card className='flex items-center p-6 justify-between'>
@@ -54,10 +56,15 @@ const MainDashboard = () => {
               </div>
             </div>
           </div>
+          <div className="flex flex-col items-center ">
+                <div className="w-full bg-card border h-full rounded-lg shadow p-4">
+                  <BarChartGrowth />
+                </div>
+              </div>
         </Grid>
 
-        <Grid size={{ xs: 12, md: 3 }}>
-          sdsd
+        <Grid size={{ xs: 12, md: 3 }} className="bg-gray-50 h-screen">
+          
         </Grid>
       </Grid>
     </section>
