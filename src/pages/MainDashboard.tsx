@@ -56,11 +56,11 @@ const MainDashboard = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col items-center ">
-                <div className="w-full bg-card border h-full rounded-lg shadow p-4">
-                  <BarChartGrowth />
-                </div>
-              </div>
+          <div className="flex flex-col items-center">
+            <div className="w-full bg-card border h-full rounded-lg shadow p-4">
+              <BarChartGrowth />
+            </div>
+          </div>
         </Grid>
 
         <Grid size={{ xs: 12, md: 3 }} className="bg-gray-50 h-screen">
