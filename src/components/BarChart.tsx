@@ -38,7 +38,7 @@ const BarChart = () => {
   };
 
   return (
-    <div className="w-full h-full"> {/* Set the height for responsiveness */}
+    <div className="w-full h-full">
       <Bar data={data} options={options} />
     </div>
   );

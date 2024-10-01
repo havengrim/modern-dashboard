@@ -6,10 +6,9 @@ import { BsFillGridFill } from "react-icons/bs";
 import { HiNewspaper } from "react-icons/hi";
 import { TbCashBanknoteFilled } from "react-icons/tb";
 import { FaTicket } from "react-icons/fa6";
-import { ModeToggle } from "./mode-toggle";
 const Sidebar = () => {
   return (
-    <div className="fixed top-0 left-0 h-screen w-20  sm:flex hidden justify-center px-4 py-6 bg-background border">
+    <div className="fixed top-0 left-0 h-full w-20  sm:flex hidden justify-center px-4 py-6 bg-background border">
        <div className="flex flex-col items-center gap-10">
         <img src={images.logo} alt="" className="h-8 w-8" />
             <ul className="flex flex-col gap-5 items-center">
@@ -37,7 +36,6 @@ const Sidebar = () => {
                    <li>
                     <FaTicket className="h-10 w-6 text-foreground" />
                 </li>
-                <ModeToggle />
             </ul>
        </div>
     </div>

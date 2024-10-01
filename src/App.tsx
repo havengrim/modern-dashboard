@@ -1,5 +1,6 @@
 import { ThemeProvider } from "@/components/theme-provider"
 import './index.css'
+import 'react-vertical-timeline-component/style.min.css';
 import Home from "./pages/Home.tsx"
 
 function App() {

@@ -50,7 +50,7 @@ const BarChartGrowth = () => {
           <span className='text-base font-bold text-gray-800 dark:text-foreground'>$50,000</span>
         </div>
       </div>
-      <div className="h-[300px] sm:h-[400px] lg:h-[500px] mt-4">
+      <div className="h-[300px] sm:h-[400px] lg:h-[300px] mt-4">
         <Bar data={data} options={options} />
       </div>
     </div>
