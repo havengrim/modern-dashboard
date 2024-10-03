@@ -6,7 +6,7 @@ import {
   TimelineContent, 
   TimelineDot 
 } from '@mui/lab';
-import { Box, Typography } from '@mui/material';
+import { Box } from '@mui/material';
 
 const ShortTimeline = () => (
   <Timeline
@@ -27,16 +27,13 @@ const ShortTimeline = () => (
       <TimelineContent>
         <Box display="flex" flexDirection="column">
           <Box display="flex" justifyContent="space-between">
-            <Typography variant="h6" component="h3" className='text-base'>
-              Transaction Assets
-            </Typography>
-            <Typography variant="subtitle2" color="text.secondary">
-              2 hours ago
-            </Typography>
+            <h3 className='sm:text-base text-sm text-gray-500'>Transaction Assets</h3>
+            <span className='sm:text-sm text-xs text-gray-500'>2 hours ago</span>
           </Box>
-          <Typography variant="body2" color="text.secondary">
+          <p className='sm:text-sm text-xs text-gray-400'>
             Short description of the transaction goes here.
-          </Typography>
+          </p>
+
         </Box>
       </TimelineContent>
     </TimelineItem>
@@ -48,16 +45,13 @@ const ShortTimeline = () => (
       <TimelineContent>
         <Box display="flex" flexDirection="column">
           <Box display="flex" justifyContent="space-between">
-            <Typography variant="h6" component="h3" className='text-base'>
-              Transaction Assets
-            </Typography>
-            <Typography variant="subtitle2" color="text.secondary">
-              2 hours ago
-            </Typography>
+            <h3 className='sm:text-base text-sm text-gray-500'>Transaction Assets</h3>
+            <span className='sm:text-sm text-xs text-gray-500'>2 hours ago</span>
           </Box>
-          <Typography variant="body2" color="text.secondary">
+          <p className='sm:text-sm text-xs text-gray-400'>
             Short description of the transaction goes here.
-          </Typography>
+          </p>
+
         </Box>
       </TimelineContent>
     </TimelineItem>
@@ -69,16 +63,12 @@ const ShortTimeline = () => (
       <TimelineContent>
         <Box display="flex" flexDirection="column">
           <Box display="flex" justifyContent="space-between">
-            <Typography variant="h6" component="h3" className='text-md'>
-              Transaction Assets
-            </Typography>
-            <Typography variant="subtitle2" color="text.secondary">
-              2 hours ago
-            </Typography>
+            <h3 className='sm:text-base text-sm text-gray-500'>Transaction Assets</h3>
+            <span className='sm:text-sm text-xs text-gray-500'>2 hours ago</span>
           </Box>
-          <Typography variant="body2" color="text.secondary">
+          <p className='sm:text-sm text-xs text-gray-400'>
             Short description of the transaction goes here.
-          </Typography>
+          </p>
         </Box>
       </TimelineContent>
     </TimelineItem>
